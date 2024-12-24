@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application>
+        <!-- Add your Yandex API key here -->
+        <meta-data
+            android:name="com.yandex.android.maps.apikey"
+            android:value="54948b58-185b-4d7c-8dca-6bebe70e8276" />
+    </application>
+</manifest>
